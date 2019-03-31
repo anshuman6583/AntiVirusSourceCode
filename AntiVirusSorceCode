@@ -522,7 +522,9 @@ void academic()
       {   z=rand()%4;
           s=s[z];
           if(b[z]==0) {cout<<"HURRAY! WE FOUND "<<s<<" bhaiya as WELL AS ONE PART OT THE CODE "<<endl;
-                       b[z]=1;break;}
+                       b[z]=1;
+              travel();
+              break;}
       }
   }
   else
